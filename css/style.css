@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Varta-SemiBold';
-  src: url(../fonts/varta/Varta-SemiBold.ttf) format('truetype');
+  src: url(../fonts/Varta-SemiBold/Varta-SemiBold.ttf) format('truetype');
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
   font-family: 'Varta-SemiBold';
-  src: url(../fonts/varta/Varta-Regular.ttf) format('truetype');
+  src: url(../fonts/Varta-SemiBold/Varta-Regular.ttf) format('truetype');
   font-style: normal;
   font-weight: normal;
 }
