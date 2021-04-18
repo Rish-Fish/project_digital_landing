@@ -1,9 +1,8 @@
-html {
-
-} 
-
+html,
 body {
-
+  font-family: 'Varta', 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 .accent-btn {
 
