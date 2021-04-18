@@ -13,18 +13,18 @@
   <!-- Header -->
   <header class="header">
     <div class="wrapper">
-      <nav>
-        <div class="logo">
+      <nav class="navigation">
+        <div class="navigation__logo">
           <a href="#">
             <img src="./img/logo.svg" alt="digits word"/>
           </a>
         </div>
-        <div class="navigation">
-          <ul class="menu">
+        <div class="navigation__wrap">
+          <ul class="navigation__menu">
             <li><a href="#">Homepages</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Company</a>
-              <ul class="dropdown">
+              <ul class="navigation__dropdown">
                 <li><a href="#">Wind</a></li>
                 <li><a href="#">Flax</a></li>
               </ul>
@@ -33,9 +33,9 @@
             <li><a href="#">Blog</a></li>
           </ul>
         </div>
-        <div class="nav-contacts">
+        <div class="navigation__contacts">
           <a href="tel:+0123456789">+00 123 456 789</a>
-          <button type="button" class="accent-btn">Contact Us</button>
+          <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
         </div>
       </nav>
     </div>
@@ -47,9 +47,9 @@
       <div class="wrapper">
         <h1>Good design meets<br>great user experience</h1>
         <p>For everyone, from beginners to experts</p>
-        <div class="wrap">
+        <div class="wrap-row">
           <button type="button" class="accent-btn">Buy Digits</button>
-          <button type="button" class="accent-btn">See the Features</button>
+          <button type="button" class="accent-btn accent-btn--white">See the Features</button>
         </div>
         <!-- 1x: ?px; 2x: ?px; -->
         <img src="./img/intro_1x.png" srcset="./img/intro_2x.png" alt="person in front of the browser window" width="977" height="585">
@@ -60,7 +60,7 @@
     <section class="block-partners">
       <div class="wrapper">
         <h2>Trusted by forward-thinking software teams around the world</h2>
-        <div class="wrap-row">
+        <div class="wrap-row block-partners__img-wrap">
           <img src="./img/logo_netflix.svg" alt="netflix logo">
           <img src="./img/logo_drawkit.svg" alt="drawkit logo">
           <img src="./img/logo_figma.svg" alt="figma logo">
@@ -77,33 +77,33 @@
       <div class="wrapper">
         <h2>Whatever work you do, we're able to help</h2>
         <div class="wrap-row">
-          <div class="image-wrap">
+          <div class="block-about__image-wrap">
             <img src="./img/about_people_1x.png" srcset="./img/about_people_2x.png" alt="three photo of happy users, a woman and two man" height="932" width="611"/>
           </div>
           <div class="wrap-col">
             <article class="wrap-row">
-              <div class="about_article-logo">
+              <div class="block-about__logo">
                 <img src="./img/design_assets.svg" alt="figma icon"/>
               </div>
-              <div class="about_article-desc">
+              <div class="block-about__desc">
                 <h3>Design and Assets</h3>
                 <p>Make your brand stand out with pixel-perfect design crafted to perfection.</p>
               </div>
             </article>
             <article class="wrap-row">
-              <div class="about_article-logo">
+              <div class="block-about__logo">
                 <img src="./img/easy_content.svg" alt="pictures album icon"/>
               </div>
-              <div class="about_article-desc">
+              <div class="block-about__desc">
                 <h3>Easy Content</h3>
                 <p>Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
               </div>
             </article>
             <article class="wrap-row">
-              <div class="about_article-logo">
+              <div class="block-about__logo">
                 <img src="./img/fast_reliable.svg" alt="lighting icon"/>
               </div>
-              <div class="about_article-desc">
+              <div class="block-about__desc">
                 <h3>Fast and Reliable</h3>
                 <p>No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
               </div>
@@ -123,11 +123,27 @@
         <button class="accent-btn">Buy Digits</button>
       </div>
       <div class="wrap-row">
-        <div class="wrap-col"></div>
-        <div class="wrap-col"></div>
-        <div class="wrap-col"></div>
-        <div class="wrap-col"></div>
-        <div class="wrap-col"></div>
+        <div class="wrap-col block-portfolio__1-col">
+          <img src="" srcset="" alt="screen of landing 'Epiconference'">
+          <img src="" alt="screen of landing 'River Views Apartment'">
+          <img src="" alt="screen of landing 'Nylon'">
+        </div>
+        <div class="wrap-col block-portfolio__2-col">
+          <img src="" alt="screen of landing 'TatraCloud'">
+          <img src="" alt="screen of landing 'Locale Agency'">
+        </div>
+        <div class="wrap-col block-portfolio__3-col">
+          <img src="" alt="screen of landing 'Portugal'">
+          <img src="" alt="screen of landing 'Memberama'">
+        </div>
+        <div class="wrap-col block-portfolio__4-col">
+          <img src="" alt="screen of landing 'PhotoPortfolio'">
+          <img src="" alt="screen of landing 'Credo'">
+        </div>
+        <div class="wrap-col block-portfolio__5-col">
+          <img src="" alt="screen of landing 'Recipes'">
+          <img src="" alt="screen of landing 'Photair'">
+        </div>
       </div>
     </section>
 
@@ -136,19 +152,19 @@
       <div class="wrapper">
         <h2>What others are saying</h2>
         <div class="wrap-row">
-          <article class="wrap-col">
+          <article class="wrap-col block-reviews__item">
             <p>Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
             <img src="" alt="smiling woman face, pink background"/>
             <h3>Happy User</h3>
             <a href="#">tempy.club</a>
           </article>
-          <article class="wrap-col">
+          <article class="wrap-col block-reviews__item">
             <p>Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
             <img src="" alt="smiling man face, yellow background"/>
             <h3>Happy User</h3>
             <a href="#">tempy.club</a>
           </article>
-          <article class="wrap-col">
+          <article class="wrap-col block-reviews__item">
             <p>Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.</p>
             <img src="" alt="smiling woman face, blue background"/>
             <h3>Happy User</h3>
@@ -159,7 +175,7 @@
     </section>
 
     <!-- Try it -->
-    <section class="block-try-it">
+    <section class="block-testdrive">
       <div class="wrapper">
         <div class="wrap-row">
           <h2>Ready to launch
@@ -177,11 +193,11 @@
   <footer class="footer">
     <div class="wrapper">
       <div class="wrap-row">
-        <div class="wrap-col">
+        <div class="wrap-col footer__nav">
           <a href="#"><img src="./img/logo.svg" alt="digits word"/></a>
           <p>Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
         </div>
-        <div class="wrap-col">
+        <div class="wrap-col footer__nav">
           <h3>Pages</h3>
           <ul>
             <li><a href="#">Home</a></li>
@@ -191,7 +207,7 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="wrap-col">
+        <div class="wrap-col footer__nav">
           <h3>Demos</h3>
           <ul>
             <li><a href="#">Classic</a></li>
@@ -201,9 +217,9 @@
             <li><a href="#">Night</a></li>
           </ul>
         </div>
-        <div class="wrap-col">
+        <div class="wrap-col footer__nav">
           <h3>Resources</h3>
-          <div class="wrap-row">
+          <div class="wrap-row footer__networks">
             <a href="#"><img src="./img/icon-facebook.svg" alt="facebook icon"/></a>
             <a href="#"><img src="./img/icon-instagram.svg" alt="instagram icon"/></a>
             <a href="#"><img src="./img/icon-twitter.svg" alt="twitter icon"/></a>
@@ -214,7 +230,7 @@
           <a href="#">Documentation</a>
         </div>
       </div>
-      <div class="wrap-row">
+      <div class="wrap-row footer__bottom">
         <p>Copyright © 2020 tempy.club</p>
         <div class="wrap-row">
           <a href="#">Privacy Policy</a>
