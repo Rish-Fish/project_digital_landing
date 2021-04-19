@@ -1,4 +1,27 @@
-/* .block-about h2 {
-  font-size: 40px;
-  color: aqua;
-} */
+/* Header */
+
+
+/* Hero */
+
+
+/* Partners */
+
+
+/* About */
+
+
+/* Portfolio */
+
+.block-portfolio__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+/* Reviews */
+
+
+/* Try it */
+
+
+/* Footer */
