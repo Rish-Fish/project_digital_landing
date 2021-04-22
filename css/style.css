@@ -49,14 +49,16 @@ padding: 0 34px;
 .block-hero p {
   margin: 27px 0;
 }
-.block-hero .accent-btn {
+.block-hero .accent-btn--big-blue {
   padding: 7px 40px;
-  margin: 0 22px 40px 0;
+  margin: 0 22px 0 0;
 }
 .block-hero .accent-btn--white {
   background: #FFFFFF;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   color: #455880;
+  padding: 7px 40px;
+
 }
 
 /* Partners */
@@ -110,12 +112,22 @@ padding: 0 34px;
 /* Portfolio */
 .block-portfolio {
   margin-top: 139px;
+  padding-top: 140px;
+  background: #FFF9EA;
+}
+.block-portfolio p {
+  margin: 30px 0 40px 0;
+}
+.block-portfolio .accent-btn--big-blue {
+  padding: 7px 40px;
+  margin: 0 22px 0 0;
 }
 .block-portfolio__wrap {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   width: 100%; 
+  margin-top: 40px;
 }
 
 .block-portfolio__wrap .wrap-col {
