@@ -3,14 +3,37 @@ body {
   font-family: 'Varta', 'Montserrat', sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
-  /* width: 100%; */
-  /* max-width: 100vw; */
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #1E266D;
+}
+h1 {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 105%;
+  /* or 59px */
+  text-align: center;
+}
+h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 125%;
+  /* identical to box height, or 27px */
+}
+p {
+  font-weight: normal;
+  font-size: 18px;
+  color: #455880;
 }
 ul {
   padding: 0;
