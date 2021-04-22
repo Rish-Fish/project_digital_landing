@@ -38,13 +38,45 @@ padding: 0 34px;
 }
 
 /* Hero */
-
+.block-hero {
+  position: relative;
+  display: flex;
+  background-image: url(../img/intro_bg_1x.png);
+  /* background-position-y: top 10px; */
+  /* background-size: 80%; */
+  /* margin-bottom: 30px; */
+}
+.block-hero p {
+  margin: 27px 0;
+}
+.block-hero .accent-btn {
+  padding: 7px 40px;
+  margin: 0 22px 40px 0;
+}
+.block-hero .accent-btn--white {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  color: #455880;
+}
 
 /* Partners */
-
+.block-partners h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height, or 169% */
+  color: rgba(69, 88, 128, 0.5);
+  margin: 30px 0 50px 0;
+}
+.block-partners .wrapper {
+  align-items: inherit;
+}
 
 /* About */
-
+.block-about h2 {
+  margin: 160px 0 0 0;
+}
 
 /* Portfolio */
 

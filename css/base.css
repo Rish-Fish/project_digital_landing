@@ -10,12 +10,16 @@ body {
   background-color: #ffffff;
   color: #1E266D;
 }
+ {
+  display: flex;
+}
 h1 {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 56px;
   line-height: 105%;
   /* or 59px */
   text-align: center;
+  margin: 145px 0 0 0;
 }
 h2 {
   font-weight: 500;
@@ -33,7 +37,9 @@ h3 {
 p {
   font-weight: normal;
   font-size: 18px;
+  line-height: 150%;
   color: #455880;
+  margin: 0;
 }
 ul {
   padding: 0;
