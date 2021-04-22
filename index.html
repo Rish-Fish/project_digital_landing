@@ -6,36 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital landing</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preload" href="./fonts/Varta-Regular.woff2" as="font">
+  <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="preload" href="./fonts/Varta-Regular.woff2" as="font">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/base.css">
 </head>
 <body>
   <!-- Header -->
   <header class="header">
     <div class="wrapper">
       <nav class="navigation wrap-row">
-        <div class="navigation__logo">
-          <a href="#">
-            <img src="./img/logo.svg" alt="digits word"/>
-          </a>
+        <div class="wrap-row">
+          <div class="navigation__logo">
+            <a href="#">
+              <img src="./img/logo.svg" alt="digits word"/>
+            </a>
+          </div>
+          <div class="navigation__wrap">
+            <ul class="navigation__menu wrap-row">
+              <li><a href="#">Homepages</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Company</a>
+                <ul class="navigation__dropdown">
+                  <li><a href="#">Wind</a></li>
+                  <li><a href="#">Flax</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="navigation__wrap">
-          <ul class="navigation__menu wrap-row">
-            <li><a href="#">Homepages</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Company</a>
-              <ul class="navigation__dropdown">
-                <li><a href="#">Wind</a></li>
-                <li><a href="#">Flax</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
+        
         <div class="navigation__contacts">
           <a href="tel:+0123456789">+00 123 456 789</a>
           <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
@@ -126,26 +129,26 @@
         <button class="accent-btn">Buy Digits</button>
       </div>
       <div class=" block-portfolio__wrap">
-        <div class="wrap-col block-portfolio__1-col">
-          <img src="./img/portfolio_1_1x.png" srcset="./img/portfolio_1_2x.png" alt="screen of landing 'Epiconference'" width="311" height="231">
-          <img src="./img/portfolio_2_1x.png" srcset="./img/portfolio_2_2x.png" alt="screen of landing 'River Views Apartment'" width="311" height="231">
-          <img src="./img/portfolio_3_1x.png" srcset="./img/portfolio_3_2x.png" alt="screen of landing 'Nylon'" width="311" height="231">
+        <div class="wrap-col">
+          <img src="./img/portfolio_1_1x.png" srcset="./img/portfolio_1_2x.png" alt="screen of landing 'Epiconference'" >
+          <img src="./img/portfolio_2_1x.png" srcset="./img/portfolio_2_2x.png" alt="screen of landing 'River Views Apartment'" >
+          <img src="./img/portfolio_3_1x.png" srcset="./img/portfolio_3_2x.png" alt="screen of landing 'Nylon'" >
         </div>
-        <div class="wrap-col block-portfolio__2-col">
-          <img src="./img/portfolio_4_1x.png" srcset="./img/portfolio_4_2x.png" alt="screen of landing 'TatraCloud'" width="311" height="231">
-          <img src="./img/portfolio_5_1x.png" srcset="./img/portfolio_5_2x.png" alt="screen of landing 'Locale Agency'" width="311" height="231">
+        <div class="wrap-col">
+          <img src="./img/portfolio_4_1x.png" srcset="./img/portfolio_4_2x.png" alt="screen of landing 'TatraCloud'" >
+          <img src="./img/portfolio_5_1x.png" srcset="./img/portfolio_5_2x.png" alt="screen of landing 'Locale Agency'" >
         </div>
-        <div class="wrap-col block-portfolio__3-col">
-          <img src="./img/portfolio_6_1x.png" srcset="./img/portfolio_6_2x.png" alt="screen of landing 'Portugal'" width="311" height="231">
-          <img src="./img/portfolio_7_1x.png" srcset="./img/portfolio_7_2x.png" alt="screen of landing 'Memberama'" width="311" height="231">
+        <div class="wrap-col">
+          <img src="./img/portfolio_6_1x.png" srcset="./img/portfolio_6_2x.png" alt="screen of landing 'Portugal'" >
+          <img src="./img/portfolio_7_1x.png" srcset="./img/portfolio_7_2x.png" alt="screen of landing 'Memberama'" >
         </div>
-        <div class="wrap-col block-portfolio__4-col">
-          <img src="./img/portfolio_8_1x.png" srcset="./img/portfolio_8_2x.png" alt="screen of landing 'PhotoPortfolio'" width="311" height="231">
-          <img src="./img/portfolio_9_1x.png" srcset="./img/portfolio_9_2x.png" alt="screen of landing 'Credo'" width="311" height="231">
+        <div class="wrap-col">
+          <img src="./img/portfolio_8_1x.png" srcset="./img/portfolio_8_2x.png" alt="screen of landing 'PhotoPortfolio'" >
+          <img src="./img/portfolio_9_1x.png" srcset="./img/portfolio_9_2x.png" alt="screen of landing 'Credo'" >
         </div>
-        <div class="wrap-col block-portfolio__5-col">
-          <img src="./img/portfolio_10_1x.png" srcset="./img/portfolio_10_2x.png" alt="screen of landing 'Recipes'" width="311" height="231">
-          <img src="./img/portfolio_11_1x.png" srcset="./img/portfolio_11_2x.png" alt="screen of landing 'Photair'" width="311" height="231">
+        <div class="wrap-col">
+          <img src="./img/portfolio_10_1x.png" srcset="./img/portfolio_10_2x.png" alt="screen of landing 'Recipes'" >
+          <img src="./img/portfolio_11_1x.png" srcset="./img/portfolio_11_2x.png" alt="screen of landing 'Photair'" >
         </div>
       </div>
     </section>

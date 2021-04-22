@@ -1,5 +1,41 @@
 /* Header */
+.navigation {
+  width: 100%;
+}
+.navigation, 
+.navigation__logo,
+.navigation__menu {
+  align-items: center;
+}
+.navigation .wrap-row {
+  align-items: baseline;
+}
+.navigation__logo img {
+  margin-right: 82px;
+  padding: 21px 0;
+  vertical-align: middle;
 
+}
+.navigation a,
+li {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 80px;
+  color: #1E266D;
+  text-decoration: none;
+  display: inline-block;
+  /* justify-content: stretch; */
+}
+.navigation li {
+  margin-right: 50px;
+}
+
+.navigation__dropdown {
+  display: none;
+}
+.navigation__contacts a {
+padding: 0 34px;
+}
 
 /* Hero */
 
@@ -15,7 +51,15 @@
 .block-portfolio__wrap {
   display: flex;
   flex-direction: row;
-  justify-content: center;  
+  align-items: flex-end;
+  width: 100%; 
+
+}
+.block-portfolio__wrap .wrap-col {
+  /* align-items: flex-end; */
+  /* align-items: center */
+  /* padding: 2%; */
+  width: 20%;
 }
 
 /* Reviews */
