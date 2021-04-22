@@ -5,14 +5,24 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #1E266D;
 }
- {
+/* main {
   display: flex;
-}
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+ /* header,
+ section,
+ footer {
+  display: flex;
+align-items: center;
+} */
 h1 {
   font-weight: bold;
   font-size: 56px;
@@ -63,14 +73,13 @@ ul {
 }
 
 .wrapper{
-  width: 1180px;
+  max-width: 1180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: auto;
-
+  margin: 2vw;
 }
 
 
@@ -79,7 +88,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .wrap-col {
@@ -87,7 +95,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   /* width: 20%; */
-
 }
 /* img {
   width: 100%;

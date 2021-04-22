@@ -126,14 +126,11 @@ padding: 0 34px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  width: 100%; 
+  /* width: 100%;  */
   margin-top: 40px;
 }
 
 .block-portfolio__wrap .wrap-col {
-  /* align-items: flex-end; */
-  /* align-items: center */
-  /* padding: 2%; */
   width: 20%;
 }
 
