@@ -1,15 +1,21 @@
 html,
-body {
+body,
+main {
   font-family: 'Varta', 'Montserrat', sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #1E266D;
+}
+svg:not(:root) {
+  overflow: visible;
+  /* overflow: auto; */
 }
 /* main {
   display: flex;
@@ -18,10 +24,11 @@ body {
   align-items: center;
 } */
  /* header,
- section,
+ main,
  footer {
   display: flex;
-align-items: center;
+  flex-direction: column;
+  align-items: center;
 } */
 h1 {
   font-weight: bold;

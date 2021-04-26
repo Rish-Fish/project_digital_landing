@@ -39,12 +39,14 @@ padding: 0 34px;
 
 /* Hero */
 .block-hero {
-  position: relative;
+  /* position: relative; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(../img/intro_bg_1x.png);
-  /* background-position-y: top 10px; */
-  /* background-size: 80%; */
-  /* margin-bottom: 30px; */
+}
+.block-hero .wrap-row {
+  margin-bottom: 30px;
 }
 .block-hero p {
   margin: 27px 0;
@@ -58,10 +60,22 @@ padding: 0 34px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   color: #455880;
   padding: 7px 40px;
-
+}
+.block-hero__image {
+  width: 977px;
+  height: 608px;
+  background-color: #FFF;
+  background-image: url('../img/intro_1x.png');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* Partners */
+.block-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .block-partners h2 {
   font-style: normal;
   font-weight: normal;
@@ -73,9 +87,28 @@ padding: 0 34px;
 }
 .block-partners .wrapper {
   align-items: inherit;
+  /* min-width: 1179px; */
+  /* flex-wrap: nowrap; */
+  /* align-items: stretch; */
+  justify-content: space-between;
+}
+
+.block-partners .block-partners__img-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* About */
+.block-about__image-wrap {
+  width: 611px;
+  height: 900px;
+  background-color: #FFF;
+  background-image: url('../img/about_people_1x.png');
+  background-repeat: no-repeat;
+  background-position: 50% 350%;
+  margin-right: 164px;px
+}
 .block-about .wrapper {
   align-items: inherit;
 }
@@ -102,15 +135,15 @@ padding: 0 34px;
   padding: 40px 0;
   border-bottom: 1px solid rgba(69, 88, 128, 0.2);
   border-top: 1px solid rgba(69, 88, 128, 0.2);
+}
 
-}
-.block-about img {
-  /* position: absolute;
-  right: 50%; */
-}
 
 /* Portfolio */
 .block-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
   margin-top: 139px;
   padding-top: 140px;
   background: #FFF9EA;
@@ -125,12 +158,14 @@ padding: 0 34px;
 .block-portfolio__wrap {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-end;
   /* width: 100%;  */
   margin-top: 40px;
 }
 
 .block-portfolio__wrap .wrap-col {
+
   width: 20%;
 }
 
