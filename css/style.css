@@ -227,17 +227,20 @@ padding: 0 34px;
   height: 65px;
 }
 .block-portfolio__10 {
+  width: 295px;
   background-size: 91%;
   background-repeat: no-repeat;
   background-position-y: top;
+  background-position-x: right;
 }
 .block-portfolio__11 {
-  width: 300px;
+  width: 280px;
   height: 209px;
   background-size: 95%;
   background-position-x: right;
   background-repeat: no-repeat;
   background-position-y: bottom;
+  align-self: flex-end;
 }
 
 
