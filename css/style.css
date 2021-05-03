@@ -20,7 +20,7 @@ li {
   font-weight: normal;
   font-size: 16px;
   line-height: 80px;
-  color: #1E266D;
+  color: var(--txt-c-dark);
   text-decoration: none;
   display: inline-block;
   /* justify-content: stretch; */
@@ -38,11 +38,11 @@ padding: 0 34px;
 
 /* Hero */
 .block-hero {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../img/intro_bg_1x.png);
+  background-image: url('../img/intro_bg_1x.png');
+  min-width: 1600px; 
 }
 .block-hero .wrap-row {
   margin-bottom: 30px;
@@ -55,15 +55,14 @@ padding: 0 34px;
   margin: 0 22px 0 0;
 }
 .block-hero .accent-btn--white {
-  background: #FFFFFF;
+  background-color: var(--c-light);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-  color: #455880;
+  color: var(--txt-c-grey);
   padding: 7px 40px;
 }
 .block-hero__image {
   width: 977px;
   height: 608px;
-  background-color: #FFF;
   background-image: url('../img/intro_1x.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -87,9 +86,6 @@ padding: 0 34px;
 }
 .block-partners .wrapper {
   align-items: inherit;
-  /* min-width: 1179px; */
-  /* flex-wrap: nowrap; */
-  /* align-items: stretch; */
   justify-content: space-between;
 }
 
@@ -103,11 +99,11 @@ padding: 0 34px;
 .block-about__image-wrap {
   width: 611px;
   height: 900px;
-  background-color: #FFF;
+  background-color: var(--c-light);
   background-image: url('../img/about_people_1x.png');
   background-repeat: no-repeat;
   background-position: 50% 350%;
-  margin-right: 164px;px
+  margin-right: 164px;
 }
 .block-about .wrapper {
   align-items: inherit;
@@ -134,7 +130,7 @@ padding: 0 34px;
   position: absolute;
   left: 0;
 }
-block-about--logo-3::before {
+.block-about--logo-3::before {
   content: url(../img/fast_reliable.svg);
   position: absolute;
   left: 0;
@@ -163,7 +159,7 @@ block-about--logo-3::before {
   align-items: center;
   margin-top: 139px;
   padding-top: 140px;
-  background: #FFF9EA;
+  background: var(--c-biege);
   min-width: 1600px; 
 }
 .block-portfolio p {
@@ -315,7 +311,7 @@ block-about--logo-3::before {
 .block-testdrive {
   display: flex;
   justify-content: center ;
-  background: #3751FF;
+  background-color: var(--c-blue);
   min-width: 1600px; 
   margin-top: 110px;
 }
@@ -327,15 +323,15 @@ block-about--logo-3::before {
   width: 100%;
 }
 .block-testdrive h2 {
-  color: #FFF;
+  color: var(--txt-c-light);
   margin: 50px 0 75px 0;
 }
 .block-testdrive p {
-  color: #DFE0EB;
+  color: var(--txt-c-grey-light);
   margin-top: 20px;
 }
 .block-testdrive a{
-color: #FED385;
+color: var(--txt-c-light-orange);
 text-decoration: none;
 cursor: pointer;
 }
