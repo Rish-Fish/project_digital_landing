@@ -121,6 +121,23 @@ padding: 0 34px;
 .block-about__desc {
   text-align: start;
   width: 70%;
+  position: relative;
+  padding-left: 115px;
+}
+.block-about--logo-1::before {
+  content: url(../img/design_assets.svg);
+  position: absolute;
+  left: 0;
+}
+.block-about--logo-2::before {
+  content: url(../img/easy_content.svg);
+  position: absolute;
+  left: 0;
+}
+block-about--logo-3::before {
+  content: url(../img/fast_reliable.svg);
+  position: absolute;
+  left: 0;
 }
 .block-about__logo {
   align-items: flex-start;
