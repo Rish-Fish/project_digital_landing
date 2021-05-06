@@ -16,34 +16,33 @@
   <!-- Header -->
   <header class="header">
     <div class="wrapper">
-      <nav class="navigation wrap-row">
-        <div class="wrap-row">
+      <nav class="header__navigation">
+        <div class="navigation__wrap">
           <div class="navigation__logo">
             <a href="#">
-              <!-- <img src="./img/logo.svg" alt="digits word"/> -->
               <svg id="logo" class="icon logo" width="84.4" height="31.4">
                 <use xlink:href="img/svg/sprite-logo-minify.svg#logo"></use>
               </svg>
             </a>
           </div>
           <div class="navigation__wrap">
-            <ul class="navigation__menu wrap-row">
-              <li><a href="#">Homepages</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Company</a>
+            <ul class="navigation__menu">
+              <li class="navigation__item"><a href="#" class="navigation__link">Homepages</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Products</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Company</a>
                 <ul class="navigation__dropdown">
-                  <li><a href="#">Wind</a></li>
-                  <li><a href="#">Flax</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Wind</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Flax</a></li>
                 </ul>
               </li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Pricing</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
             </ul>
           </div>
         </div>
         
         <div class="navigation__contacts">
-          <a href="tel:+0123456789">+00 123 456 789</a>
+          <a href="tel:+0123456789" class="navigation__link">+00 123 456 789</a>
           <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
         </div>
       </nav>
@@ -55,13 +54,11 @@
     <section class="block-hero">
       <div class="wrapper">
         <h1><b>Good design meets<br>great user experience</b></h1>
-        <p>For everyone, from beginners to experts</p>
-        <div class="wrap-row">
+        <p class="block-hero__desc">For everyone, from beginners to experts</p>
+        <div class="block-hero__button-wrap">
           <button type="button" class="accent-btn accent-btn--big-blue">Buy Digits</button>
           <button type="button" class="accent-btn accent-btn--white">See the Features</button>
         </div>
-        <!-- 1x: ?px; 2x: ?px; -->
-        <!-- <img src="./img/intro_1x.png" srcset="./img/intro_2x.png" alt="person in front of the browser window" width="977" height="585"> -->
         <div class="block-hero__image"></div>
       </div>
     </section>
@@ -69,29 +66,8 @@
     <!-- Partners -->
     <section class="block-partners">
       <div class="wrapper">
-        <h2><b>Trusted by forward-thinking software teams around the world</b></h2>
-        <div class="wrap-row block-partners__img-wrap">
-          <!-- <svg class="icon logo-cinemax">
-            <use xlink:href="./img/svg/sprite.svg#logo-cinemax"></use>
-          </svg>
-          <svg class="icon logo-disney">
-            <use xlink:href="#logo-disney"></use>
-          </svg>
-          <svg class="icon logo-drawkit">
-            <use xlink:href="#logo-drawkit"></use>
-          </svg>
-          <svg class="icon logo-figma">
-            <use xlink:href="#logo-figma"></use>
-          </svg>
-          <svg class="icon logo-google">
-            <use xlink:href="#logo-google"></use>
-          </svg>
-          <svg class="icon logo-netflix">
-            <use xlink:href="#logo-netflix"></use>
-          </svg>
-          <svg class="icon logo-stripe">
-            <use xlink:href="#logo-stripe"></use>
-          </svg> -->
+        <h2 class="block-partners__head"><b>Trusted by forward-thinking software teams around the world</b></h2>
+        <div class="block-partners__image-wrap">
           <img src="./img/logo_netflix.svg" alt="netflix logo">
           <img src="./img/logo_drawkit.svg" alt="drawkit logo">
           <img src="./img/logo_figma.svg" alt="figma logo">
@@ -106,33 +82,30 @@
     <!-- About -->
     <section class="block-about">
       <div class="wrapper">
-        <h2><b>Whatever work you do,<br> we're able to help</b></h2>
-        <div class="wrap-row">
+        <h2 class="block-about__head"><b>Whatever work you do,<br> we're able to help</b></h2>
+        <div class="block-about__wrap">
           <div class="block-about__image-wrap">
           </div>
-          <div class="">
-            <div class="wrap-col">
-            <article class="wrap-row">
+          <div class="block-about__desc-wrap">
+            <article class="block-about__item">
               <div class="block-about__desc block-about--logo-1">
-                <h3><b>Design and Assets</b></h3>
+                <h3 class="block-about__desc-head"><b>Design and Assets</b></h3>
                 <p>Make your brand stand out with<br> pixel-perfect design crafted to perfection.</p>
               </div>
             </article>
-            <article class="wrap-row block-about__border-line">
+            <article class="block-about__border-line">
               <div class="block-about__desc block-about--logo-2">
-                <h3><b>Easy Content</b></h3>
+                <h3 class="block-about__desc-head"><b>Easy Content</b></h3>
                 <p>Import your demos or build pages<br> visually. Bonus: All images and illustrations included!</p>
               </div>
             </article>
-            <article class="wrap-row">
+            <article class="block-about__item">
               <div class="block-about__desc block-about--logo-3">
-                <h3><b>Fast and Reliable</b></h3>
+                <h3 class="block-about__desc-head"><b>Fast and Reliable</b></h3>
                 <p>No heavy-weight plugins. No builders. No<br> unneccesary file loading. Pure WordPress.</p>
               </div>
             </article>
           </div>
-          </div>
-          
         </div>
       </div>
     </section>
@@ -147,7 +120,7 @@
         <button class="accent-btn accent-btn--big-blue">Buy Digits</button>
       </div>
       <div class=" block-portfolio__wrap">
-        <div class="wrap-col">
+        <div class="block-portfolio__col">
           <div class="block-portfolio__1"></div>
           <div class="block-portfolio__2"></div>
           <div class="block-portfolio__3"></div>
@@ -155,25 +128,25 @@
           <img src="./img/portfolio_2_1x.png" srcset="./img/portfolio_2_2x.png" alt="screen of landing 'River Views Apartment'" >
           <img src="./img/portfolio_3_1x.png" srcset="./img/portfolio_3_2x.png" alt="screen of landing 'Nylon'" > -->
         </div>
-        <div class="wrap-col">
+        <div class="block-portfolio__col">
           <div class="block-portfolio__4"></div>
           <div class="block-portfolio__5"></div>
           <!-- <img src="./img/portfolio_4_1x.png" srcset="./img/portfolio_4_2x.png" alt="screen of landing 'TatraCloud'" >
           <img src="./img/portfolio_5_1x.png" srcset="./img/portfolio_5_2x.png" alt="screen of landing 'Locale Agency'" > -->
         </div>
-        <div class="wrap-col">
+        <div class="block-portfolio__col">
           <div class="block-portfolio__6"></div>
           <div class="block-portfolio__7"></div>
           <!-- <img src="./img/portfolio_6_1x.png" srcset="./img/portfolio_6_2x.png" alt="screen of landing 'Portugal'" >
           <img src="./img/portfolio_7_1x.png" srcset="./img/portfolio_7_2x.png" alt="screen of landing 'Memberama'" > -->
         </div>
-        <div class="wrap-col">
+        <div class="block-portfolio__col">
           <div class="block-portfolio__8"></div>
           <div class="block-portfolio__9"></div>
           <!-- <img src="./img/portfolio_8_1x.png" srcset="./img/portfolio_8_2x.png" alt="screen of landing 'PhotoPortfolio'" >
           <img src="./img/portfolio_9_1x.png" srcset="./img/portfolio_9_2x.png" alt="screen of landing 'Credo'" > -->
         </div>
-        <div class="wrap-col">
+        <div class="block-portfolio__col">
           <div class="block-portfolio__10"></div>
           <div class="block-portfolio__11"></div>
           <!-- <img src="./img/portfolio_10_1x.png" srcset="./img/portfolio_10_2x.png" alt="screen of landing 'Recipes'" >
@@ -185,43 +158,46 @@
     <!-- Reviews -->
     <section class="block-reviews">
       <div class="wrapper">
-        <h2><b>What others are saying</b></h2>
-        <div class="wrap-row">
-          <article class="wrap-col block-reviews__item">
-            <p>Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
-            <!-- <img src="" alt="smiling woman face, pink background"/> -->
-            <picture>
+        <h2 class="block-reviews__head"><b>What others are saying</b></h2>
+        <div class="block-reviews__wrap">
+          <article class="block-reviews__item">
+            <p class="block-reviews__desc" >Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
+            <div class="block-reviews__user">
+              <picture class="block-reviews__image">
               <source media="(min-width: 1024px)" srcset="./img/webp/happy_user_1_@1x.webp 1x, ./img/webp/happy_user_1_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_1_@1x.webp 1x, ./img/webp/happy_user_1_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_1_@1x.png 1x, ./img/webp/happy_user_1_@2x.png 2x">
-              <!-- <img src="./img/webp/happy_user_1_@1x.png 1x" srcset="./img/webp/happy_user_1_@2x.png 2x" alt="smiling woman face, pink background" width="64.29" height="64"> -->
-            </picture>
-            <h3><b>Happy User</b></h3>
-            <a href="#">tempy.club</a>
+              <img src="./img/webp/happy_user_1_@1x.png 1x" srcset="./img/webp/happy_user_1_@2x.png 2x" alt="smiling woman face, pink background" width="64.29" height="64">
+              </picture>
+              <h3><b>Happy User</b></h3>
+              <a href="#" class="block-reviews__link">tempy.club</a>
+            </div>
           </article>
-          <article class="wrap-col block-reviews__item">
-            <p>Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
-            <!-- <img src="" alt="smiling man face, yellow background"/> -->
-            <picture>
+          <article class="block-reviews__item">
+            <p class="block-reviews__desc">Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
+            <div class="block-reviews__user">
+              <picture class="block-reviews__image">
               <source media="(min-width: 1024px)" srcset="./img/webp/happy_user_2_@1x.webp 1x, ./img/webp/happy_user_2_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_2_@1x.webp 1x, ./img/webp/happy_user_2_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_2_@1x.png 1x, ./img/webp/happy_user_2_@2x.png 2x">
               <img src="./img/webp/happy_user_2_@1x.png 1x" srcset="./img/webp/happy_user_2_@2x.png 2x" alt="smiling man face, yellow background" width="64.29" height="64">
-            </picture>
-            <h3><b>Happy User</b></h3>
-            <a href="#">tempy.club</a>
+              </picture>
+              <h3><b>Happy User</b></h3>
+              <a href="#" class="block-reviews__link">tempy.club</a>
+            </div>
           </article>
-          <article class="wrap-col block-reviews__item">
-            <p>Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.</p>
-            <!-- <img src="" alt="smiling woman face, blue background"/> -->
-            <picture>
+          <article class="block-reviews__item">
+            <p class="block-reviews__desc">Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.</p>
+            <div class="block-reviews__user">
+              <picture class="block-reviews__image">
               <source media="(min-width: 1024px)" srcset="./img/webp/happy_user_3_@1x.webp 1x, ./img/webp/happy_user_3_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_3_@1x.webp 1x, ./img/webp/happy_user_3_@2x.webp 2x" type="image/webp">
               <source media="(max-width: 1023px)" srcset="./img/webp/happy_user_3_@1x.png 1x, ./img/webp/happy_user_3_@2x.png 2x">
               <img src="./img/webp/happy_user_3_@1x.png 1x" srcset="./img/webp/happy_user_3_@2x.png 2x" alt="smiling woman face, blue background" width="64.29" height="64">
-            </picture>
-            <h3><b>Happy User</b></h3>
-            <a href="#">tempy.club</a>
+              </picture>
+              <h3><b>Happy User</b></h3>
+              <a href="#" class="block-reviews__link">tempy.club</a>
+            </div>
           </article>
         </div>
       </div>
@@ -230,12 +206,17 @@
     <!-- Try it -->
     <section class="block-testdrive">
       <div class="wrapper">
-        <div class="wrap-row">
-          <h2>Ready to launch
+        <div class="block-testdrive__wrap">
+          <h2 class="block-testdrive__head">Ready to launch
             <br>your next website?</h2>
-          <div class="wrap-col">
-            <button class="accent-btn"><img src="./img/contact_us.svg" alt="letter icon"/>Get in touch now</button>
-            <p>Or, take a peek inside our <span><a href="#">design studio</a></span></p>
+          <div>
+            <button class="accent-btn">
+              <svg id="contact-us" class="icon contact-us" width="26.3" height="15.4">
+                <use xlink:href="img/svg/sprite-contact-us-minify.svg#contact-us"></use>
+              </svg>
+              Get in touch now
+            </button>
+            <p class="block-testdrive__desc">Or, take a peek inside our <span><a href="#" class="block-testdrive__link">design studio</a></span></p>
           </div>
         </div>
       </div>
@@ -245,50 +226,54 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="wrapper">
-      <div class="wrap-row">
-        <div class="wrap-col footer__nav">
-          <a href="#"><img src="./img/logo.svg" alt="digits word"/></a>
+      <div class="footer__wrap">
+        <div class="footer__col">
+          <a href="#">
+            <svg id="logo" class="icon logo" width="70.3" height="26.6">
+              <use xlink:href="img/svg/sprite-logo-minify.svg#logo"></use>
+            </svg>
+          </a>
           <p>Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
         </div>
-        <div class="wrap-col footer__nav">
+        <div class="footer__col">
           <h3>Pages</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">News</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Pricing</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
           </ul>
         </div>
-        <div class="wrap-col footer__nav">
+        <div class="footer__col">
           <h3>Demos</h3>
           <ul>
-            <li><a href="#">Classic</a></li>
-            <li><a href="#">Boxy</a></li>
-            <li><a href="#">Gradient</a></li>
-            <li><a href="#">Minimal</a></li>
-            <li><a href="#">Night</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Classic</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Boxy</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Gradient</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Minimal</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Night</a></li>
           </ul>
         </div>
-        <div class="wrap-col footer__nav">
+        <div class="footer__col">
           <h3>Resources</h3>
-          <div class="wrap-row footer__networks">
+          <div class="footer__networks">
             <a href="#"><img src="./img/icon-facebook.svg" alt="facebook icon"/></a>
             <a href="#"><img src="./img/icon-instagram.svg" alt="instagram icon"/></a>
             <a href="#"><img src="./img/icon-twitter.svg" alt="twitter icon"/></a>
             <a href="#"><img src="./img/icon-dribbble.svg" alt="dribble icon"/></a>
             <a href="#"><img src="./img/icon-envato.svg" alt="envato icon"/></a>
           </div>
-          <a href="#">Download now</a>
-          <a href="#">Documentation</a>
+          <a href="#" class="footer__link">Download now</a>
+          <a href="#" class="footer__link">Documentation</a>
         </div>
       </div>
-      <div class="wrap-row footer__bottom">
+      <div class="footer__bottom">
         <p>Copyright © 2020 tempy.club</p>
-        <div class="wrap-row">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">GDPR</a>
+        <div class="footer__right-side">
+          <a href="#" class="footer__link">Privacy Policy</a>
+          <a href="#" class="footer__link">Terms of Use</a>
+          <a href="#" class="footer__link">GDPR</a>
         </div>
       </div>
     </div>

@@ -85,7 +85,7 @@ ul {
 }
 
 .wrapper{
-  max-width: 1180px;
+  width: 1180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,15 +94,5 @@ ul {
   margin: 2vw;
 }
 
-.wrap-row {
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: space-between;
-}
 
-.wrap-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
