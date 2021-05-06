@@ -74,17 +74,35 @@ ul {
   border-radius: 100px;
   font-weight: normal;
   font-size: 16px;
-  line-height: 40px;
+  line-height: 16px;
   align-items: center;
   text-align: center;
   color: var(--c-light);
-  padding: 0 15px;
+  padding: 17px 40px;
   cursor: pointer;
   border: none;
   outline: 0;
 }
+.accent-btn--nav {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.accent-btn--white {
+  background-color: var(--c-light);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  color: var(--txt-c-grey);
+  margin-left: 22px;
+}
+.accent-btn--big-white {
+  font-size: 18px;
+  line-height: 110%;
+  background-color: var(--c-light);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  color: var(--txt-c-grey);
+}
 
-.wrapper{
+.wrapper {
   width: 1180px;
   display: flex;
   flex-direction: column;
