@@ -1,0 +1,52 @@
+/* Test drive */
+.block-testdrive {
+  display: flex;
+  justify-content: center ;
+  background-color: var(--c-blue);
+  min-width: 1600px; 
+  margin-top: 110px;
+}
+
+.block-testdrive .wrapper {
+  min-width: 1180px;
+  justify-content: space-between;
+}
+
+.block-testdrive__wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+}
+
+.block-testdrive__head {
+  color: var(--txt-c-light);
+  margin: 50px 0 75px 0;
+}
+.block-testdrive__desc {
+  color: var(--txt-c-grey-light);
+  margin-top: 20px;
+}
+.block-testdrive__link {
+color: var(--txt-c-light-orange);
+text-decoration: none;
+cursor: pointer;
+}
+.block-testdrive__link:hover {
+  color: var(--c-pink);
+}
+.block-testdrive__link:active {
+  color: var(--c-red);
+  transform:scale(1.4);
+}
+.block-testdrive__link:
+#contact-us {
+  padding: 2px 9px 0 0;
+  transform: scale(2);
+  fill: #53C07E;
+}
+#contact-us:hover {
+  fill: #0bc7e9;
+  transform: scale(2.3);
+
+}

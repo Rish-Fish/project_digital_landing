@@ -1,0 +1,22 @@
+/* Hero */
+.block-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../img/intro_bg_1x.png');
+  min-width: 1600px; 
+}
+.block-hero__button-wrap {
+  margin-bottom: 30px;
+}
+.block-hero__desc {
+  margin: 27px 0;
+}
+
+.block-hero__image {
+  width: 977px;
+  height: 608px;
+  background-image: url('../img/intro_1x.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}

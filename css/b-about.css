@@ -1,0 +1,59 @@
+/* About */
+.block-about__wrap {
+  display: flex;
+}
+.block-about__image-wrap {
+  width: 611px;
+  height: 900px;
+  background-color: var(--c-light);
+  background-image: url('../img/about_people_1x.png');
+  background-repeat: no-repeat;
+  background-position: 50% 350%;
+  margin-right: 164px;
+}
+.block-about .wrapper {
+  align-items: inherit;
+}
+.block-about__head {
+  margin-top: 160px;
+}
+
+.block-about__desc-wrap {
+  margin-top: 100px;
+  max-width: 405px;
+}
+.block-about__desc {
+  text-align: start;
+  width: 70%;
+  position: relative;
+  padding-left: 115px;
+}
+.block-about--logo-1::before {
+  content: url('../img/design_assets.svg');
+  position: absolute;
+  left: 0;
+}
+.block-about--logo-2::before {
+  content: url('../img/easy_content.svg');
+  position: absolute;
+  left: 0;
+}
+.block-about--logo-3::before {
+  content: url('../img/fast_reliable.svg');
+  position: absolute;
+  left: 0;
+}
+.block-about__logo {
+  align-items: flex-start;
+}
+.block-about__item {
+  margin: 40px 0;
+}
+.block-about__desc-head {
+  padding-bottom: 30px;
+}
+.block-about__border-line {
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+  border-top: 1px solid rgba(69, 88, 128, 0.2);
+}
