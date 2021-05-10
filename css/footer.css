@@ -54,6 +54,17 @@
   min-width: 171px;
   margin: 32px 0 25px;
 }
+
+#icon-facebook {
+  /* padding: 0 13px 0 0; */
+  transform: scale(2);
+  fill: var(--c-dark);
+}
+#icon-facebook:hover {
+  fill: var(--c-blue);
+  /* transform: scale(2.3); */
+}
+
 .footer__link-add:hover {
   color:var(--c-blue);
   transform:scale(1.1);
