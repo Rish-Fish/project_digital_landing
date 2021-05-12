@@ -20,3 +20,23 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+@media (webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (-o-min-device-pixel-ratio: 3/2){
+    .block-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('../img/intro_bg_2x.png');
+      min-width: 1600px; 
+    }
+    .block-hero__image {
+      width: 977px;
+      height: 608px;
+      background-image: url('../img/intro_2x.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+ 

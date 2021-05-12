@@ -57,3 +57,17 @@
   border-bottom: 1px solid rgba(69, 88, 128, 0.2);
   border-top: 1px solid rgba(69, 88, 128, 0.2);
 }
+
+@media (webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (-o-min-device-pixel-ratio: 3/2){
+    .block-about__image-wrap {
+      width: 611px;
+      height: 900px;
+      background-color: var(--c-light);
+      background-image: url('../img/about_people_2x.png');
+      background-repeat: no-repeat;
+      background-position: 50% 350%;
+      margin-right: 164px;
+    }
+  }

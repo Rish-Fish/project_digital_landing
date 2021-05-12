@@ -72,7 +72,12 @@
 padding: 0 34px;
 }
 
-
+#logo {
+  fill: #FF2E6A;
+}
+#logo:hover {
+  fill: var(--c-blue);
+}
 
 
 

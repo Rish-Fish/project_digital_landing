@@ -135,3 +135,41 @@
 .block-portfolio__11 {
   background-image: url('../img/portfolio_11_@1x.png');
 }
+
+@media (webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (-o-min-device-pixel-ratio: 3/2){
+    .block-portfolio__1 {
+      background-image: url('../img/portfolio_1_@2x.png');
+    }
+    .block-portfolio__2 {
+      background-image: url('../img/portfolio_2_@2x.png');
+    }
+    .block-portfolio__3 {
+      background-image: url('../img/portfolio_3_@2x.png');
+    }
+    .block-portfolio__4 {
+      background-image: url('../img/portfolio_4_@2x.png');
+    }
+    .block-portfolio__5 {
+      background-image: url('../img/portfolio_5_@2x.png');
+    }
+    .block-portfolio__6 {
+      background-image: url('../img/portfolio_6_@2x.png');
+    }
+    .block-portfolio__7 {
+      background-image: url('../img/portfolio_7_@2x.png');
+    }
+    .block-portfolio__8 {
+      background-image: url('../img/portfolio_8_@2x.png');
+    }
+    .block-portfolio__9 {
+      background-image: url('../img/portfolio_9_@2x.png');
+    }
+    .block-portfolio__10 {
+      background-image: url('../img/portfolio_10_@2x.png');
+    }
+    .block-portfolio__11 {
+      background-image: url('../img/portfolio_11_@2x.png');
+    }
+  }
