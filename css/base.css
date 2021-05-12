@@ -71,9 +71,7 @@ p {
 ul {
   padding: 0;
 }
-/* a:-webkit-any-link {
-  color: none;
-} */
+
 .accent-btn {
   background: var(--c-blue);
   border-radius: 100px;
@@ -139,5 +137,26 @@ ul {
   margin: 2vw;
 }
 
+/* Mobile */
+@media all and (max-width: 768px) {
+  .wrapper {
+    max-width: 320px;
+  }
 
+
+
+
+}
+
+/* Tablet */
+@media all and (max-width: 1025px) {
+  .wrapper {
+    max-width: 710px;
+    margin: 1vw;
+  }
+
+
+
+
+}
 

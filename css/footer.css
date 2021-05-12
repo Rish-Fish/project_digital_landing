@@ -72,8 +72,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-
-
 .footer__link-add:hover {
   color:var(--c-blue);
   transform:scale(1.1);
@@ -94,4 +92,22 @@
 }
 .footer__right-side .footer__link {
   margin-left: 25px;
+}
+
+ /* Mobile */
+ @media all and (max-width: 768px) {
+  
+
+
+
+
+}
+
+/* Tablet */
+@media all and (max-width: 1025px) {
+  
+
+
+
+
 }

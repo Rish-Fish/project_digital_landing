@@ -173,3 +173,21 @@
       background-image: url('../img/portfolio_11_@2x.png');
     }
   }
+
+   /* Mobile */
+@media all and (max-width: 768px) {
+  
+
+
+
+
+}
+
+/* Tablet */
+@media all and (max-width: 1025px) {
+  
+
+
+
+
+}

@@ -48,3 +48,21 @@ cursor: pointer;
   fill: #0bc7e9;
   /* transform: scale(2.3); */
 }
+
+ /* Mobile */
+ @media all and (max-width: 768px) {
+  
+
+
+
+
+}
+
+/* Tablet */
+@media all and (max-width: 1025px) {
+  
+
+
+
+
+}
