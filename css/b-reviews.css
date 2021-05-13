@@ -14,18 +14,15 @@
 .block-reviews__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 30%;
-}
-.block-reviews__head {
-  margin: 232px 0 56px;
-}
-.block-reviews__item {
   justify-content: space-between;
   border: 1px solid rgba(69, 88, 128, 0.2);
   border-radius: 4px;
   padding: 38px 43px 32px;
   margin: 0 29px;
+}
+.block-reviews__head {
+  margin: 232px 0 56px;
 }
 .block-reviews__wrap .block-reviews__item:first-child {
  margin-left: 0; 
@@ -68,8 +65,23 @@
 
 /* Tablet */
 @media all and (max-width: 1025px) {
-  
-
+  .block-reviews__head {
+    margin-top: 150px;
+  }
+  .block-reviews__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block-reviews__item {
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 20px 0 20px;
+  }
+  .block-reviews__desc {
+    text-align: center;
+  }
 
 
 

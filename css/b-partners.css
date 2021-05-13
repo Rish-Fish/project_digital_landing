@@ -33,7 +33,9 @@
 
 /* Tablet */
 @media all and (max-width: 1025px) {
-  
+  .block-partners__image-wrap .block-partners__image {
+    width: 10%;
+  }
 
 
 

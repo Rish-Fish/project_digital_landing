@@ -53,7 +53,14 @@
   .block-hero {
     min-width: 768px; 
     justify-content: center;
-
+  }
+  .block-hero__image {
+    width: 710px;
+    height: 442px;
+    background-size: contain;
+    background-position: 15px 0;
+  }
+  
 
 
 }

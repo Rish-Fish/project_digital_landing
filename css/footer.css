@@ -35,6 +35,13 @@
   list-style-type: none;
   color: var(--txt-c-grey);
 }
+#logo-footer {
+  fill: #FF2E6A;
+}
+#logo-footer:hover {
+  fill: var(--c-blue);
+}
+
 /* 
 .footer__link {
   border-left: #0bc8e900 1px solid;
@@ -105,7 +112,9 @@
 
 /* Tablet */
 @media all and (max-width: 1025px) {
-  
+  .footer__col {
+    max-width: 240px;
+  }
 
 
 
