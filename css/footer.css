@@ -115,6 +115,9 @@
   .footer__col {
     max-width: 240px;
   }
+  .footer__networks {
+    min-width: inherit;
+  }
 
 
 

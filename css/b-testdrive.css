@@ -7,16 +7,17 @@
   margin-top: 110px;
 }
 
-.wrapper {
-  min-width: 1180px;
-  justify-content: space-between;
-}
-
 .block-testdrive__wrap {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   align-items: baseline;
+  min-width: 1180px;
+}
+.block-testdrive__btn-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .block-testdrive__head {
@@ -60,6 +61,23 @@ cursor: pointer;
 
 /* Tablet */
 @media all and (max-width: 1025px) {
+  .block-testdrive__btn-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .block-testdrive__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: inherit;
+  }
+  .block-testdrive__head {
+    margin: 50px 0 25px 0;
+  }
+  .block-testdrive__desc {
+    margin-bottom: 20px;
+  }
   
 
 

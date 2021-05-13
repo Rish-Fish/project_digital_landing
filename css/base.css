@@ -154,8 +154,9 @@ ul {
     max-width: 710px;
     margin: 1vw;
   }
-
-
+  .accent-btn--big-white {
+    justify-content: center;
+  }
 
 
 }
