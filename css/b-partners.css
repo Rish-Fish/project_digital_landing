@@ -22,20 +22,20 @@
   justify-content: space-between;
 }
 
- /* Mobile */
- @media all and (max-width: 768px) {
-  
-
-
-
-
-}
 
 /* Tablet */
 @media all and (max-width: 1025px) {
   .block-partners__image-wrap .block-partners__image {
     width: 10%;
   }
+  
+  
+  
+  
+}
+/* Mobile */
+@media all and (max-width: 767px) {
+ 
 
 
 

@@ -12,6 +12,19 @@
 .navigation__wrap{
   display: flex;
   align-items: baseline;
+  width: 60%;
+  flex-grow: 1;
+}
+.navigation__wrap-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  /* flex-grow: 1; */
+}
+.navigation__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__navigation, 
@@ -21,7 +34,7 @@
 }
 
 .navigation__logo .logo {
-  margin-right: 82px;
+  margin-right: 50px;
   padding: 21px 0;
   vertical-align: middle;
 }
@@ -42,7 +55,9 @@
   color: var(--txt-c-dark);
   text-decoration: none;
   display: inline-block;
-  padding: 0 34px;
+  /* padding: 0 34px; */
+  padding: 0 20px 0 38px;
+  /* padding: 0 2vw 0 8vw; */
   border-top: #0aafbe00 solid 1px;
 
 }
@@ -66,7 +81,7 @@
 }
  
 .navigation__link {
-padding: 0 34px;
+/* padding: 0 34px; */
 }
 
 #logo {
@@ -76,30 +91,16 @@ padding: 0 34px;
   fill: var(--c-blue);
 }
 
-/* Mobile */
-@media all and (max-width: 768px) {
-  
-
-
-
-
-}
 
 /* Tablet */
 @media all and (max-width: 1025px) {
   .navigation__logo .logo {
     margin: 0 35px 0 0;
     padding-left: 0;
-    /* vertical-align: middle; */
   }
   .navigation__item,
   .navigation__link {
-    /* font-weight: normal;
-    font-size: 16px; */
     line-height: 40px;
-    /* color: var(--txt-c-dark);
-    text-decoration: none;
-    display: inline-block; */
   }
   .navigation__link {
     padding: 0 10px;
@@ -110,23 +111,36 @@ padding: 0 34px;
     flex-direction: column;
   }
   .navigation__tel {
-    /* font-weight: normal; */
-    /* font-size: 16px; */
     line-height: 40px;
-    /* color: var(--txt-c-dark);
-    text-decoration: none;
-    display: inline-block; */
     padding: 0 15px;
-    /* border-top: #0aafbe00 solid 1px; */
   }
   .header {
     margin-top: 15px;
   }
-
-
-
-
 }
+
+/* Mobile */
+@media all and (max-width: 767px) {
+  .navigation__wrap-menu {
+    display: none;
+  }
+  .navigation__contacts {
+    display: none;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; */
+  }
+  .navigation__wrap {
+    width: auto;
+
+  }
+  .mobile-menu {
+    height: 40px;
+    width: 40px;
+    border: var(--c-grey-light) solid 4px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
 
 
 

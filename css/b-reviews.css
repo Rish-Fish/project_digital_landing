@@ -53,16 +53,6 @@
   color: #cc5a6b;
   transform:scale(1.4);
 }
-
- /* Mobile */
- @media all and (max-width: 768px) {
-  
-
-
-
-
-}
-
 /* Tablet */
 @media all and (max-width: 1025px) {
   .block-reviews__head {
@@ -82,7 +72,20 @@
   .block-reviews__desc {
     text-align: center;
   }
+  
+
+}
+ /* Mobile */
+ @media all and (max-width: 767px) {
+  .block-reviews__head {
+    margin-top: 50px;
+  }
+  .block-reviews__item {
+    width: 80%;
+  }
+
 
 
 
 }
+
