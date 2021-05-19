@@ -206,15 +206,15 @@
     padding-top: 50px;
   }
   .block-portfolio__wrap {
-    max-width: 767px;
-    max-height: 258px;
+    width: 767px;
+    height: 258px;
   }
   .block-portfolio {
     max-width: 767px; 
     width: 100%;
   }
   .wrapper {
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
   .block-portfolio__desc-wrap {
     padding: 0 15px;
