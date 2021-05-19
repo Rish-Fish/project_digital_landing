@@ -114,7 +114,11 @@
   .block-about__head {
     margin-top: 50px;
   }
-  
+  .block-about__desc {
+    width: auto;
+    padding-left: 100px; 
+    margin: 5%;
+  }
 
 
 

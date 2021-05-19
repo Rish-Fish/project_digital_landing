@@ -25,7 +25,7 @@
 
 /* Tablet */
 @media all and (max-width: 1025px) {
-  .block-partners__image-wrap .block-partners__image {
+  .block-partners__image {
     width: 10%;
   }
   
@@ -35,8 +35,14 @@
 }
 /* Mobile */
 @media all and (max-width: 767px) {
- 
+  .block-partners__image-wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
+  .block-partners__image {
+    width: 20%;
+  }
 
 
 

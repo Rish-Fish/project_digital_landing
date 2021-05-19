@@ -84,10 +84,10 @@
 /* padding: 0 34px; */
 }
 
-#logo {
+.logo {
   fill: #FF2E6A;
 }
-#logo:hover {
+.logo:hover {
   fill: var(--c-blue);
 }
 

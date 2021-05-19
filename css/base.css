@@ -93,10 +93,12 @@ ul {
   border: var(--c-blue) 1px solid;
   transition: all 0.3s ease-in-out;
 }
+.accent-btn:hover .contact_us {
+  fill: #0bc7e9;;
+}
 .accent-btn:active {
   transform:scale(1.2);
   background: var(--c-green);
-
 }
 
 .accent-btn--nav {
@@ -162,7 +164,7 @@ ul {
 /* Mobile */
 @media all and (max-width: 767px) {
   .wrapper {
-    max-width: 330px;
+    max-width: 320px;
     width: 100%;
   }
   .base-head {

@@ -41,15 +41,14 @@ cursor: pointer;
   color: var(--c-red);
   transform:scale(1.4);
 }
-#contact_us {
+.contact_us {
   padding: 0 13px 0 0;
   transform: scale(2);
   fill: #53C07E;
 }
-#contact_us:hover {
+/* #contact_us:hover {
   fill: #0bc7e9;
-  /* transform: scale(2.3); */
-}
+} */
 /* Big-tablet */
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .block-testdrive__wrap {
