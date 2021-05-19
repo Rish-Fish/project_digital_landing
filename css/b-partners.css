@@ -1,6 +1,6 @@
 /* Partners */
 .block-partners {
-  min-width: 1180px;
+  /* min-width: 1180px; */
   display: flex;
   flex-direction: column;
   align-items: center;

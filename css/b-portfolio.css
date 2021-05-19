@@ -1,15 +1,16 @@
 /* Portfolio */
 .block-portfolio {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-items: center;
   align-items: center;
   margin-top: 139px;
   padding-top: 140px;
-  background: var(--c-biege);
+  background-color: var(--c-biege);
   max-width: 1600px; 
   width: 100%;
 }
+
 .block-portfolio p {
   margin: 30px 0 40px 0;
 }
@@ -25,7 +26,6 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-  /* min-width: 1600px;  */
   margin-top: 40px;
   background-size: 100%;
   min-width: 100vw;
@@ -199,7 +199,16 @@
   /* .block-reviews__head {
     padding-top: 20px;
   } */
-
+  .block-portfolio {
+    max-width: 767px; 
+    width: 100%;
+  }
+  .wrapper {
+    padding: 0 20px;
+  }
+  .block-portfolio__desc-wrap {
+    padding: 0 15px;
+  }
 
 
 

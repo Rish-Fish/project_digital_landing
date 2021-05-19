@@ -64,6 +64,10 @@
   .block-hero__image {
     width: 320px;
     height: 199px;
+    background-position: 10px 0;
+  }
+  .block-hero__button-wrap {
+    padding: 0 15px;
   }
 
 
