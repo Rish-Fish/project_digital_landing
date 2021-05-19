@@ -1,7 +1,6 @@
 /* About */
 .block-about__wrap {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .block-about__image-wrap {
