@@ -72,20 +72,20 @@
   .block-reviews__desc {
     text-align: center;
   }
-  
 
 }
  /* Mobile */
  @media all and (max-width: 767px) {
   .block-reviews__head {
-    margin-top: 50px;
+    margin: 50px 0 20px;
   }
   .block-reviews__item {
     width: 80%;
     padding: 30px;
   }
+  .block-reviews__image {
+    margin-top: 30px
+  }
   
-
-
 }
 

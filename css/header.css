@@ -137,7 +137,11 @@
   .mobile-menu {
     height: 40px;
     width: 40px;
-    border: var(--c-grey-light) solid 4px;
+    border: var(--c-opacity) solid 1px;
+    background-image: url(../img/menu-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     border-radius: 8px;
     margin-left: 10px;
   }

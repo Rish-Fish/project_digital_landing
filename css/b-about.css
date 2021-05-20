@@ -118,6 +118,7 @@
   }
   .block-about__head {
     margin-top: 50px;
+    margin-bottom: 10px;
   }
   .block-about__desc {
     width: auto;
@@ -125,15 +126,17 @@
     /* margin: 5%; */
   }
   .block-about__desc-wrap {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 100%;
   }
-  /* .block-about__desc {
-    text-align: start;
-    width: 70%;
-    position: relative;
-    padding-left: 1px;
-  } */
+  
+  .block-about__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .block-about__border-line {
+    /* padding: 40px 0; */
+  }
 
 
 
