@@ -177,6 +177,9 @@ ul {
   .base-break-line {
     display: none;
   }
+  .accent-btn--mobile {
+    width: 205px;
+  }
 
 
 }
