@@ -58,12 +58,18 @@
   /* padding: 0 34px; */
   padding: 0 20px 0 38px;
   /* padding: 0 2vw 0 8vw; */
-  border-top: #0aafbe00 solid 1px;
+  border-top: var(--c-opacity) solid 1px;
 
 }
+/* .navigation__tel::before {
+  content: "+00 123 456 789";
+  color: var(--c-dark);
+  font-size: 17px;
+  position: absolute;
+} */
 .navigation__tel:hover {  
   color: var(--c-blue);
-  font-size: 17px;
+  /* font-size: 17px; */
   transition: all 0.2s ease-in-out;
 }
 
