@@ -140,6 +140,22 @@ ul {
   text-align: center;
   /* margin: 2vw ; */
 }
+
+/* Mobile Menu */
+.mobile-menu {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  right: 0;
+}
+
+.active {
+  display: block;
+}
+
 /* Big-tablet */
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .wrapper {
@@ -150,8 +166,8 @@ ul {
 /* Tablet */
 @media all and (max-width: 1025px) {
   .wrapper {
-    max-width: 740px;
-    min-width: 320;
+    max-width: 700px;
+    /* min-width: 320px; */
     width: 100%;
     /* margin: 3vw; */
   }
@@ -165,7 +181,8 @@ ul {
 /* Mobile */
 @media all and (max-width: 767px) {
   .wrapper {
-    /* max-width: 320px; */
+    max-width: 310px;
+    /* min-width: 300px; */
     width: inherit;
     padding: 0 20px;
   }

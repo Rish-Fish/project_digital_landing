@@ -54,7 +54,16 @@
           <a href="tel:+0123456789" class="navigation__tel">+00 123 456 789</a>
           <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
         </div>
-        <div class="mobile-menu"><a href="" id="mobile-menu-btn"></a></div>
+        <div class="">
+          <div class="mobile-toggle" id="js-mobile-toggle"></div>
+          <ul class="mobile-menu" id="js-mobile-menu">
+            <li><a>Homepages</a></li>
+            <li><a>Products</a></li>
+            <li><a>Company</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Blog</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
@@ -76,15 +85,35 @@
     <!-- Partners -->
     <section class="block-partners">
       <div class="wrapper">
-        <h2 class="block-partners__head"><b>Trusted by forward-thinking software teams around the world</b></h2>
+        <h2 class="block-partners__head"><b>Trusted by forward-thinkin<wbr>software teams around the world</b></h2>
         <div class="block-partners__image-wrap">
-          <img src="./img/logo_netflix.svg" class="block-partners__image" alt="netflix logo">
-          <img src="./img/logo_drawkit.svg" class="block-partners__image" alt="drawkit logo">
-          <img src="./img/logo_figma.svg" class="block-partners__image" alt="figma logo">
-          <img src="./img/logo_cinemax.svg" class="block-partners__image" alt="cinemax logo">
-          <img src="./img/logo_stripe.svg" class="block-partners__image" alt="stripe logo">
-          <img src="./img/logo_google.svg" class="block-partners__image" alt="google logo">
-          <img src="./img/logo_disney.svg" class="block-partners__image" alt="disney logo">
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./img/logo_netflix.svg" class="block-partners__image" alt="netflix logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_figma.svg" class="block-partners__image" alt="figma logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_drawkit.svg" class="block-partners__image" alt="drawkit logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_cinemax.svg" class="block-partners__image" alt="cinemax logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_stripe.svg" class="block-partners__image" alt="stripe logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_google.svg" class="block-partners__image" alt="google logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/logo_disney.svg" class="block-partners__image" alt="disney logo">
+              </div>
+            </div>
         </div>
       </div>
     </section>

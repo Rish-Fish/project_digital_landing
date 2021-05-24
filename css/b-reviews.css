@@ -72,6 +72,9 @@
   .block-reviews__desc {
     text-align: center;
   }
+  .block-reviews__wrap .block-reviews__item:last-child {
+    margin-bottom: 10px;
+  }
 
 }
  /* Mobile */
