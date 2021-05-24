@@ -141,20 +141,7 @@ ul {
   /* margin: 2vw ; */
 }
 
-/* Mobile Menu */
-.mobile-menu {
-  list-style-type: none;
-  display: none;
-  position: absolute;
-  background: #fff;
-  height: 100%;
-  width: 100%;
-  right: 0;
-}
 
-.active {
-  display: block;
-}
 
 /* Big-tablet */
 @media all and (min-width: 1025px) and (max-width: 1200px) {
@@ -199,6 +186,24 @@ ul {
     width: 205px;
   }
 
+  /* Mobile Menu */
+.mobile-menu {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  right: 0;
+}
+
+.active {
+  display: block;
+}
+.
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 59px;
 
 }
 
