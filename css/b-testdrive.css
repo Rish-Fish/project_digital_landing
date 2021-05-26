@@ -19,6 +19,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin: 0 25px;
 }
 
 .block-testdrive__head {
@@ -46,9 +47,7 @@ cursor: pointer;
   transform: scale(2);
   fill: #53C07E;
 }
-/* #contact_us:hover {
-  fill: #0bc7e9;
-} */
+
 /* Big-tablet */
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .block-testdrive__wrap {

@@ -7,13 +7,13 @@ const swiper = new Swiper('.swiper-container', {
     delay: 500,
     disableOnInteraction: false
   },
-  speed: 2000,
+  speed: 4000,
   breakpoints: {
     320: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     1199: {
       slidesPerView: 5,

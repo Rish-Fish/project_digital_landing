@@ -54,7 +54,8 @@
           <a href="tel:+0123456789" class="navigation__tel">+00 123 456 789</a>
           <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
         </div>
-        <div class="">
+        <!-- Mobile menu -->
+        <div class="mobile-menu-container">
           <div class="mobile-toggle" id="js-mobile-toggle"></div>
           <ul class="mobile-menu" id="js-mobile-menu">
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Homepages</a></li>
@@ -62,6 +63,12 @@
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Company</a></li>
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Pricing</a></li>
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Blog</a></li>
+            <li class="mobile-menu__item">
+              <div class="mobile-menu__contacts">
+                <a href="tel:+0123456789" class="mobile-menu__link">+00 123 456 789</a>
+                <button type="button" class="accent-btn accent-btn--nav">Contact Us</button>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
@@ -169,7 +176,7 @@
         <h2 class="block-reviews__head"><b>What others are saying</b></h2>
         <div class="block-reviews__wrap">
           <article class="block-reviews__item">
-            <p class="block-reviews__desc" >Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
+            <p class="block-reviews__desc" >Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well <wbr> I needed it!</p>
             <div class="block-reviews__user">
               <picture class="block-reviews__image">
               <source media="(min-width: 1024px)" srcset="./img/webp/happy_user_1_@1x.webp 1x, ./img/webp/happy_user_1_@2x.webp 2x" type="image/webp">
@@ -306,8 +313,7 @@
       </div>
     </div>
   </footer>
-  <!-- Modal -->
-  <!-- Mobile menu -->
+ 
   <!-- Script -->
   <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/script.js"></script>
