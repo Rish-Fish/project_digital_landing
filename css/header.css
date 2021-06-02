@@ -148,6 +148,13 @@
     border-radius: 8px;
     margin-left: 10px;
   }
+    /* .mobile-menu { 
+    position: fixed;
+    height: 100vh;
+    z-index: 20;
+    background-color: white;
+    margin: 30px 20px 0px;
+  } */
   .mobile-menu__item {
     font-weight: bold;
     font-size: 30px;

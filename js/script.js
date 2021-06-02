@@ -28,4 +28,5 @@ let mobileMenu = document.getElementById("js-mobile-menu");
 let mobileToggle = document.getElementById("js-mobile-toggle");
 mobileToggle.addEventListener("click", function() {
   mobileMenu.classList.toggle("active");
+  // mobileMenu.classList.toggle("overflow-hidden");
 });
