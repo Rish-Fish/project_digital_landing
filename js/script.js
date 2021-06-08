@@ -24,9 +24,24 @@ const swiper = new Swiper('.swiper-container', {
 
 //Mobile menu
 
+// let mobileMenu = document.getElementById("js-mobile-menu");
+// let mobileToggle = document.getElementById("js-mobile-toggle");
+// mobileToggle.addEventListener("click", function() {
+//   mobileMenu.classList.toggle("active")
+// });
+
+  // mobileMenu.classList.toggle("overflow-hidden");
+
+
 let mobileMenu = document.getElementById("js-mobile-menu");
+let mobilMenuStop = document.getElementById("js-mobile-menu-stop")
 let mobileToggle = document.getElementById("js-mobile-toggle");
 mobileToggle.addEventListener("click", function() {
-  mobileMenu.classList.toggle("active");
-  // mobileMenu.classList.toggle("overflow-hidden");
+  mobileMenu.classList.toggle("active"),
+  mobilMenuStop.classList.toggle("overflow-hidden")
 });
+ 
+// mobilMenuStop.addEventListener("click", function() {
+//   mobileMenu.classList.toggle("overflow-hidden");
+// })
+// );
