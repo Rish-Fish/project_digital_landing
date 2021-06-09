@@ -224,5 +224,13 @@ ul {
   }
 
 }
+@media all and (max-height: 568px) {
+  .mobile-menu__item {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px 0;  
+  }
+
+}
 
 
