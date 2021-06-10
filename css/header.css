@@ -145,18 +145,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border-radius: 8px;
+    border-radius: 7px;
     margin-left: 10px;
   }
   .mobile-toggle-close {
-    height: 40px;
-    width: 40px;
-    border: var(--c-opacity) solid 1px;
+    height: 36px;
+    width: 36px;
+    border: var(--c-dark) solid 2px;
     background-image: url('../img/icon-close.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    border-radius: 8px;
+    background-size: 30px;
+    border-radius: 4px;
     margin-left: 10px;
   }
   /* .mobile-toggle {
