@@ -29,6 +29,7 @@ let mobilMenuStop = document.getElementById("js-mobile-menu-stop")
 let mobileToggle = document.getElementById("js-mobile-toggle");
 mobileToggle.addEventListener("click", function() {
   mobileMenu.classList.toggle("active"),
-  mobilMenuStop.classList.toggle("overflow-hidden")
+  mobilMenuStop.classList.toggle("overflow-hidden"),
+  mobileToggle.classList.toggle("mobile-toggle-close")
 });
  
