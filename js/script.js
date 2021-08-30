@@ -24,12 +24,24 @@ const swiper = new Swiper('.swiper-container', {
 
 //Mobile menu
 
-let mobileMenu = document.getElementById("js-mobile-menu");
-let mobilMenuStop = document.getElementById("js-mobile-menu-stop")
-let mobileToggle = document.getElementById("js-mobile-toggle");
+let mobileMenu = document.getElementById("js-mobile-menu"); //<ul>
+let mobilMenuStop = document.getElementById("js-mobile-menu-stop"); //<html>
+let mobileToggle = document.getElementById("js-mobile-toggle"); //бургер -> close
+let mobileLinkClose = document.querySelectorAll(".mobile-menu__item");
+
+// открытие mobile menu по клику на бургер
 mobileToggle.addEventListener("click", function() {
-  mobileMenu.classList.toggle("active"),
-  mobilMenuStop.classList.toggle("overflow-hidden"),
+  mobileMenu.classList.toggle("active"), // state in base.css
+  mobilMenuStop.classList.toggle("overflow-hidden"), // state in base.css
   mobileToggle.classList.toggle("mobile-toggle-close")
 });
  
+// закрытие по клику на ссылки
+mobileLinkClose.forEach(function (mobileLinkClose) {
+  mobileLinkClose.addEventListener('click', function() {
+    mobileMenu.classList.remove("active"), // state in base.css
+    mobilMenuStop.classList.remove("overflow-hidden"), // state in base.css
+    mobileToggle.classList.remove("mobile-toggle-close")
+  })
+});
+  
