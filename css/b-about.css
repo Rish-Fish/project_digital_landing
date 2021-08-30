@@ -1,4 +1,8 @@
 /* About */
+.block-about {
+  display: flex;
+  /* align-items: center; */
+}
 .block-about__wrap {
   display: flex;
   align-items: center;
@@ -7,7 +11,7 @@
   width: 611px;
   height: 900px;
   background-color: var(--c-light);
-  background-image: url('../img/about_people_1x.png');
+  background-image: url("../img/about_people_1x.png");
   background-repeat: no-repeat;
   background-position: 50% 350%;
   margin-right: 164px;
@@ -30,17 +34,17 @@
   padding-left: 115px;
 }
 .block-about--logo-1::before {
-  content: url('../img/design_assets.svg');
+  content: url("../img/design_assets.svg");
   position: absolute;
   left: 0;
 }
 .block-about--logo-2::before {
-  content: url('../img/easy_content.svg');
+  content: url("../img/easy_content.svg");
   position: absolute;
   left: 0;
 }
 .block-about--logo-3::before {
-  content: url('../img/fast_reliable.svg');
+  content: url("../img/fast_reliable.svg");
   position: absolute;
   left: 0;
 }
@@ -61,17 +65,17 @@
 
 @media (webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
-  (-o-min-device-pixel-ratio: 3/2){
-    .block-about__image-wrap {
-      width: 611px;
-      height: 900px;
-      background-color: var(--c-light);
-      background-image: url('../img/about_people_2x.png');
-      background-repeat: no-repeat;
-      background-position: 50% 350%;
-      margin-right: 164px;
-    }
+  (-o-min-device-pixel-ratio: 3/2) {
+  .block-about__image-wrap {
+    width: 611px;
+    height: 900px;
+    background-color: var(--c-light);
+    background-image: url("../img/about_people_2x.png");
+    background-repeat: no-repeat;
+    background-position: 50% 350%;
+    margin-right: 164px;
   }
+}
 /* Big-tablet */
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .block-about__image-wrap {
@@ -103,9 +107,8 @@
   .block-about--logo-3::before {
     top: 30%;
   }
-
 }
-   /* Mobile */
+/* Mobile */
 @media all and (max-width: 767px) {
   .wrapper {
     /* width: 100%; */
@@ -122,14 +125,14 @@
   }
   .block-about__desc {
     width: auto;
-    padding: 0 0 0 70px; 
+    padding: 0 0 0 70px;
     /* margin: 5%; */
   }
   .block-about__desc-wrap {
     /* margin-top: 40px; */
     width: 100%;
   }
-  
+
   .block-about__item {
     padding-left: 10px;
     padding-right: 10px;
@@ -137,8 +140,4 @@
   .block-about__border-line {
     /* padding: 40px 0; */
   }
-
-
-
 }
-

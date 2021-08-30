@@ -1,10 +1,10 @@
 /* Hero */
 .block-hero {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  background-image: url('../img/intro_bg_1x.png');
-  min-width: 1600px; 
+  background-image: url("../img/intro_bg_1x.png");
+  /* min-width: 1600px;  */
   width: 100%;
 }
 .block-hero__button-wrap {
@@ -17,35 +17,34 @@
 .block-hero__image {
   width: 977px;
   height: 608px;
-  background-image: url('../img/intro_1x.png');
+  background-image: url("../img/intro_1x.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
 @media (webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
-  (-o-min-device-pixel-ratio: 3/2){
-    .block-hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-image: url('../img/intro_bg_2x.png');
-      min-width: 1600px; 
-    }
-    .block-hero__image {
-      width: 977px;
-      height: 608px;
-      background-image: url('../img/intro_2x.png');
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
+  (-o-min-device-pixel-ratio: 3/2) {
+  .block-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/intro_bg_2x.png");
+    /* min-width: 1600px;  */
   }
- 
+  .block-hero__image {
+    width: 977px;
+    height: 608px;
+    background-image: url("../img/intro_2x.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
 
 /* Tablet */
 @media all and (max-width: 1025px) {
   .block-hero {
-    min-width: 768px; 
-    width: 100%;
+    /* min-width: 768px;  */
+    /* width: 100%; */
     justify-content: center;
   }
   .block-hero__image {
@@ -54,12 +53,11 @@
     background-size: contain;
     background-position: 15px 0;
   }
-  
 }
 /* Mobile */
 @media all and (max-width: 767px) {
   .block-hero {
-    min-width: inherit; 
+    /* min-width: inherit;  */
   }
   .block-hero__image {
     width: 320px;
@@ -69,7 +67,4 @@
   .block-hero__button-wrap {
     padding: 0 15px;
   }
-  
-
 }
-
