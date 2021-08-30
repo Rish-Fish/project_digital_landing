@@ -19,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  /* flex-grow: 1; */
 }
 .navigation__menu {
   width: 100%;
@@ -55,20 +54,12 @@
   color: var(--txt-c-dark);
   text-decoration: none;
   display: inline-block;
-  /* padding: 0 34px; */
   padding: 0 20px 0 38px;
-  /* padding: 0 2vw 0 8vw; */
   border-top: var(--c-opacity) solid 1px;
 }
-/* .navigation__tel::before {
-  content: "+00 123 456 789";
-  color: var(--c-dark);
-  font-size: 17px;
-  position: absolute;
-} */
+
 .navigation__tel:hover {
   color: var(--c-blue);
-  /* font-size: 17px; */
   transition: all 0.2s ease-in-out;
 }
 
@@ -83,10 +74,6 @@
 
 .navigation__dropdown {
   display: none;
-}
-
-.navigation__link {
-  /* padding: 0 34px; */
 }
 
 .logo {
@@ -157,50 +144,7 @@
     border-radius: 4px;
     margin-left: 10px;
   }
-  /* .mobile-toggle {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 18px;
-  }
-  
-  .mobile-toggle:before,
-  .mobile-toggle:after {
-    background: #333;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-  }
-  
-  .mobile-toggle:before {
-    top: 5px;
-  }
-  .mobile-toggle:after {
-    top: -5px;
-  }
-  .mobile-toggle .active:before{
 
-  } */
-  /* .header .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 18px;
-  } */
-  /* .mobile-menu { 
-    position: fixed;
-    height: 100vh;
-    z-index: 20;
-    background-color: white;
-    margin: 30px 20px 0px;
-  } */
   .mobile-menu__item {
     font-weight: bold;
     font-size: 30px;

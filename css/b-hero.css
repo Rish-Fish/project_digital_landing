@@ -1,10 +1,8 @@
 /* Hero */
 .block-hero {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   background-image: url("../img/intro_bg_1x.png");
-  /* min-width: 1600px;  */
   width: 100%;
 }
 .block-hero__button-wrap {
@@ -29,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     background-image: url("../img/intro_bg_2x.png");
-    /* min-width: 1600px;  */
   }
   .block-hero__image {
     width: 977px;
@@ -43,8 +40,6 @@
 /* Tablet */
 @media all and (max-width: 1025px) {
   .block-hero {
-    /* min-width: 768px;  */
-    /* width: 100%; */
     justify-content: center;
   }
   .block-hero__image {
@@ -56,9 +51,6 @@
 }
 /* Mobile */
 @media all and (max-width: 767px) {
-  .block-hero {
-    /* min-width: inherit;  */
-  }
   .block-hero__image {
     width: 320px;
     height: 199px;
