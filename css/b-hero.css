@@ -2,6 +2,7 @@
 .block-hero {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-image: url("../img/intro_bg_1x.png");
   width: 100%;
 }
