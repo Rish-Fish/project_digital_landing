@@ -45,3 +45,11 @@ mobileLinkClose.forEach(function (mobileLinkClose) {
   })
 });
   
+// cкрытие меню по клику на Esc
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    mobileMenu.classList.remove("active"), // state in base.css
+    mobilMenuStop.classList.remove("overflow-hidden"), // state in base.css
+    mobileToggle.classList.remove("mobile-toggle-close")
+  }
+  });
