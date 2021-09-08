@@ -1,47 +1,51 @@
 /* Varta */
 @font-face {
-  font-family: 'Varta';
-  src: url('../fonts/Varta-Regular.eot');
-  src: url('../fonts/Varta-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Varta-Regular.woff2') format('woff2'),
-      url('../fonts/Varta-Regular.woff') format('woff'),
-      url('../fonts/Varta-Regular.ttf') format('truetype');
+  font-family: "Varta";
+  src: url("../fonts/Varta-Regular.eot");
+  src: local("Varta"),
+    url("../fonts/Varta-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Varta-Regular.woff2") format("woff2"),
+    url("../fonts/Varta-Regular.woff") format("woff"),
+    url("../fonts/Varta-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Varta';
-  src: url('../fonts/Varta-SemiBold.eot');
-  src: url('../fonts/Varta-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Varta-SemiBold.woff2') format('woff2'),
-      url('../fonts/Varta-SemiBold.woff') format('woff'),
-      url('../fonts/Varta-SemiBold.ttf') format('truetype');
+  font-family: "Varta";
+  src: url("../fonts/Varta-SemiBold.eot");
+  src: local("Varta"),
+    url("../fonts/Varta-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Varta-SemiBold.woff2") format("woff2"),
+    url("../fonts/Varta-SemiBold.woff") format("woff"),
+    url("../fonts/Varta-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Varta';
-  src: url('../fonts/Varta-Light.eot');
-  src: url('../fonts/Varta-Light.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Varta-Light.woff2') format('woff2'),
-      url('../fonts/Varta-Light.woff') format('woff'),
-      url('../fonts/Varta-Light.ttf') format('truetype');
+  font-family: "Varta";
+  src: url("../fonts/Varta-Light.eot");
+  src: local("Varta"),
+    url("../fonts/Varta-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Varta-Light.woff2") format("woff2"),
+    url("../fonts/Varta-Light.woff") format("woff"),
+    url("../fonts/Varta-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Varta';
-  src: url('../fonts/Varta-Bold.eot');
-  src: url('../fonts/Varta-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Varta-Bold.woff2') format('woff2'),
-      url('../fonts/Varta-Bold.woff') format('woff'),
-      url('../fonts/Varta-Bold.ttf') format('truetype');
+  font-family: "Varta";
+  src: url("../fonts/Varta-Bold.eot");
+  src: local("Varta"),
+    url("../fonts/Varta-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Varta-Bold.woff2") format("woff2"),
+    url("../fonts/Varta-Bold.woff") format("woff"),
+    url("../fonts/Varta-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
