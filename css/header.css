@@ -172,4 +172,7 @@
   .mobile-menu__contacts .mobile-menu__link:hover {
     color: var(--c-green);
   }
+  .mobile-menu {
+    overflow: auto;
+  }
 }
